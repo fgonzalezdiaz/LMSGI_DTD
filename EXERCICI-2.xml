@@ -1,0 +1,49 @@
+<cataleg>
+    <llista_actors>
+        <actor id = "A342">
+            <nom> Marlon Brando </nom>
+            <edat> RIP </edat>
+        </actor>
+        <actor id = "A243">
+            <nom> Tom hanks </nom>
+            <edat> 68 </edat>
+        </actor>
+        <actor id = "A312">
+            <nom> Russel Crowe </nom>
+            <edat> 60 </edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id = "P4321">
+            <titol idioma = " Angles"> Gladiator </titol>
+            <director> Francis Fors Coppola </director>
+            <any> 1972 </any>
+            <actors> 
+                <actor_ref ref = "A342"/>
+            </actors>
+        </pelicula>
+        <pelicula id = "P6532">
+            <titol idioma = "Angles"> Forrest Gump </titol>
+            <director> RobertZemeckis </director>
+            <any> 1994 </any>
+            <actors>
+             <actor_ref ref = "A243"/>
+            </actors>
+        </pelicula>
+        <pelicula id = "P5432">
+            <titol idioma = "Angles"> Gladiator </titol>
+            <director> Ridley Scott </director>
+            <any> 2000 </any>
+            <actors> 
+                <actor_ref ref = "A312"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules> 
+        <recomanacio ref = "P6532"/>
+        <recomanacio />
+        <recomanacio ref = "P5432"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
